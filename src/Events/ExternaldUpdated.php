@@ -1,9 +1,9 @@
 <?php
 
-namespace Eeappdev\LaravelExternalId\Events;
+namespace Eeappdev\ExternalId\Events;
 
 use Illuminate\Database\Eloquent\Model;
-use Eeappdev\LaravelExternalId\ExternalId;
+use Eeappdev\ExternalId\ExternalId;
 
 class ExternaldUpdated
 {

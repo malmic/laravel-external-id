@@ -1,8 +1,9 @@
 <?php
 
-namespace Eeappdev\LaravelExternalId;
+namespace Eeappdev\ExternalId;
 
 use Illuminate\Database\Eloquent\Relations\MorphOne;
+use Eeappdev\ExternalId\ExternalId;
 
 trait HasExternalId
 {

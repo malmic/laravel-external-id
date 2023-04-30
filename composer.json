@@ -12,13 +12,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Eeappdev\\LaravelExternalId\\": "src/"
+            "Eeappdev\\ExternalId\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Eeappdev\\LaravelExternalId\\ExternalIdServiceProvider"
+                "Eeappdev\\ExternalId\\ExternalIdServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Eeappdev\LaravelExternalId;
+namespace Eeappdev\ExternalId;
 
 use Illuminate\Support\ServiceProvider;
 
