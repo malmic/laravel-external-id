@@ -1,0 +1,25 @@
+{
+    "name": "eeappdev/laravel-external-id",
+    "description": "Make a morph-table to keep track of external id relationships for external API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emil Enevoldsen",
+            "email": "github@eeapp.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Eeappdev\\LaravelExternalId\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eeappdev\\LaravelExternalId\\ExternalIdServiceProvider"
+            ]
+        }
+    }
+}
