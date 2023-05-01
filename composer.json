@@ -21,6 +21,5 @@
                 "Eeappdev\\ExternalId\\ExternalIdServiceProvider"
             ]
         }
-    },
-    "version": "0.0.1"
+    }
 }
