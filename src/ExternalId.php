@@ -11,6 +11,6 @@ class ExternalId extends Model
 
     public function external(): MorphTo
     {
-        return $this->moprhTo();
+        return $this->morphTo();
     }
 }
